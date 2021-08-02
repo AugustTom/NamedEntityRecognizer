@@ -12,7 +12,7 @@ class NamedEntityClient:
             'PERSON': 'Person',
             'NORP': 'Group',
             'LOC': 'Location',
-            'GPE':'Location',
+            'GPE': 'Location',
 
         }
         return label_map.get(label_)
